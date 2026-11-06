@@ -1,0 +1,37 @@
+{
+  "message": {
+    "type": "tool-calls",
+    "timestamp": 1762430400000,
+    "toolCallList": [
+      {
+        "id": "tc_elig_001",
+        "type": "function",
+        "function": {
+          "name": "checkEligibility",
+          "arguments": {
+            "productLine": "medicare",
+            "age": 67,
+            "state": "TX",
+            "currentCoverage": "medicare",
+            "hasMedicare": true
+          }
+        }
+      }
+    ],
+    "toolWithToolCallList": [],
+    "artifact": {
+      "messages": []
+    },
+    "customer": {
+      "number": "+15555550160"
+    },
+    "call": {
+      "id": "test-ins-call-001",
+      "orgId": "test-org",
+      "type": "inboundPhoneCall",
+      "customer": {
+        "number": "+15555550160"
+      }
+    }
+  }
+}

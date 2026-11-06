@@ -1,0 +1,13 @@
+{
+  "message": {
+    "type": "status-update",
+    "status": "in-progress",
+    "timestamp": 1762430390000,
+    "call": {
+      "id": "test-call-0001",
+      "orgId": "test-org",
+      "type": "inboundPhoneCall",
+      "customer": { "number": "+14155550123" }
+    }
+  }
+}

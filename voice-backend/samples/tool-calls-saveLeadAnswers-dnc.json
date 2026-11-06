@@ -1,0 +1,35 @@
+{
+  "message": {
+    "type": "tool-calls",
+    "timestamp": 1762430400000,
+    "toolCallList": [
+      {
+        "id": "tc_lead_002",
+        "type": "function",
+        "function": {
+          "name": "saveLeadAnswers",
+          "arguments": {
+            "intent": "unknown",
+            "timeline": "unknown",
+            "doNotCall": true
+          }
+        }
+      }
+    ],
+    "toolWithToolCallList": [],
+    "artifact": {
+      "messages": []
+    },
+    "customer": {
+      "number": "+15555550143"
+    },
+    "call": {
+      "id": "test-lead-call-002",
+      "orgId": "test-org",
+      "type": "outboundPhoneCall",
+      "customer": {
+        "number": "+15555550143"
+      }
+    }
+  }
+}

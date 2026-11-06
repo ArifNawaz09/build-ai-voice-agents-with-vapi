@@ -1,0 +1,31 @@
+{
+  "message": {
+    "type": "tool-calls",
+    "timestamp": 1762430400000,
+    "toolCallList": [
+      {
+        "id": "call_test_hours_001",
+        "type": "function",
+        "function": {
+          "name": "getBusinessHours",
+          "arguments": { "day": "Saturday" }
+        }
+      },
+      {
+        "id": "call_test_unknown_002",
+        "type": "function",
+        "function": {
+          "name": "notARealTool",
+          "arguments": {}
+        }
+      }
+    ],
+    "toolWithToolCallList": [],
+    "artifact": { "messages": [] },
+    "call": {
+      "id": "test-call-0001",
+      "orgId": "test-org",
+      "type": "inboundPhoneCall"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "message": {
+    "type": "assistant-request",
+    "timestamp": 1762430380000,
+    "call": {
+      "id": "test-call-0002",
+      "orgId": "test-org",
+      "type": "inboundPhoneCall",
+      "customer": { "number": "+14155550123" }
+    }
+  }
+}

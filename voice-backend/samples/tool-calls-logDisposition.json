@@ -1,0 +1,34 @@
+{
+  "message": {
+    "type": "tool-calls",
+    "timestamp": 1762430400000,
+    "toolCallList": [
+      {
+        "id": "tc_disp_001",
+        "type": "function",
+        "function": {
+          "name": "logDisposition",
+          "arguments": {
+            "disposition": "DNC",
+            "notes": "Asked to be removed from all lists"
+          }
+        }
+      }
+    ],
+    "toolWithToolCallList": [],
+    "artifact": {
+      "messages": []
+    },
+    "customer": {
+      "number": "+15555550161"
+    },
+    "call": {
+      "id": "test-ins-call-002",
+      "orgId": "test-org",
+      "type": "inboundPhoneCall",
+      "customer": {
+        "number": "+15555550161"
+      }
+    }
+  }
+}

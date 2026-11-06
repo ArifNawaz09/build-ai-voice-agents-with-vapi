@@ -1,0 +1,37 @@
+{
+  "message": {
+    "type": "end-of-call-report",
+    "timestamp": 1762430520000,
+    "endedReason": "customer-ended-call",
+    "startedAt": "2026-11-06T14:00:00.000Z",
+    "endedAt": "2026-11-06T14:02:07.000Z",
+    "cost": 0.21,
+    "call": {
+      "id": "test-call-0001",
+      "orgId": "test-org",
+      "type": "inboundPhoneCall",
+      "assistantId": "test-assistant-id",
+      "customer": { "number": "+14155550123" }
+    },
+    "customer": { "number": "+14155550123" },
+    "artifact": {
+      "transcript": "AI: How can I help?\nUser: Open Saturday?",
+      "messages": [
+        { "role": "assistant", "message": "How can I help?" },
+        { "role": "user", "message": "Open Saturday?" }
+      ],
+      "recordingUrl": "https://example.com/rec/test.mp3",
+      "stereoRecordingUrl": "https://example.com/rec/test-st.mp3",
+      "structuredOutputs": {
+        "so-test-id": {
+          "name": "Call Outcome",
+          "result": { "intent": "hours", "resolved": true }
+        }
+      }
+    },
+    "analysis": {
+      "summary": "Caller asked about Saturday hours. Told closed.",
+      "successEvaluation": "true"
+    }
+  }
+}

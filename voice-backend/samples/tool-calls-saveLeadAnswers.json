@@ -1,0 +1,38 @@
+{
+  "message": {
+    "type": "tool-calls",
+    "timestamp": 1762430400000,
+    "toolCallList": [
+      {
+        "id": "tc_lead_001",
+        "type": "function",
+        "function": {
+          "name": "saveLeadAnswers",
+          "arguments": {
+            "intent": "buy",
+            "timeline": "1-3_months",
+            "priceRange": "around 450k",
+            "area": "Scottsdale",
+            "preApproved": "yes",
+            "hasAgent": false
+          }
+        }
+      }
+    ],
+    "toolWithToolCallList": [],
+    "artifact": {
+      "messages": []
+    },
+    "customer": {
+      "number": "+15555550142"
+    },
+    "call": {
+      "id": "test-lead-call-001",
+      "orgId": "test-org",
+      "type": "outboundPhoneCall",
+      "customer": {
+        "number": "+15555550142"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "message": {
+    "type": "tool-calls",
+    "timestamp": 1762430400000,
+    "toolCallList": [
+      {
+        "id": "tc_book_001",
+        "type": "function",
+        "function": {
+          "name": "bookAppointment",
+          "arguments": {
+            "start": "REPLACE_WITH_A_START_FROM_checkAvailability",
+            "name": "Maria Lopez",
+            "reason": "cleaning"
+          }
+        }
+      }
+    ],
+    "toolWithToolCallList": [],
+    "artifact": {
+      "messages": []
+    },
+    "customer": {
+      "number": "+15555550150"
+    },
+    "call": {
+      "id": "test-book-call-001",
+      "orgId": "test-org",
+      "type": "inboundPhoneCall",
+      "customer": {
+        "number": "+15555550150"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "voice-backend",
+  "version": "1.0.0",
+  "description": "Companion code for Build AI Voice Agents with Vapi",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env --watch server.js",
+    "create:basic": "node --env-file=.env scripts/create-assistant-basic.js",
+    "create:lead": "node --env-file=.env scripts/create-assistant-lead.js",
+    "create:booking": "node --env-file=.env scripts/create-assistant-booking.js",
+    "create:insurance": "node --env-file=.env scripts/create-assistant-insurance.js",
+    "call:lead": "node --env-file=.env scripts/call-lead.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
